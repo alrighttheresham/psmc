@@ -1,0 +1,38 @@
+{
+  "name": "psmc",
+  "description": "command line client for BTI proNX Services Manager (psm).",
+  "version": "3.3.0",
+  "homepage": "https://github.com/alrighttheresham/psmc",
+  "author": {
+    "name": "Damian ONeill",
+    "email": "doneill@btisystems.com",
+    "url": "www.btisystems.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alrighttheresham/psmc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alrighttheresham/psmc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alrighttheresham/psmc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/psmc",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.0"
+  },
+  "keywords": []
+}
