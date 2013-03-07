@@ -7,7 +7,7 @@ Install the module with: `npm install psmc`
 
 ```javascript
 var psmc = require('psmc');
-psmc.awesome(); // "awesome"
+psmc.run(); 
 ```
 
 ## Documentation
