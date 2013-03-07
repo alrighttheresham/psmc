@@ -30,7 +30,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(psmc.awesome(), 'awesome', 'should be awesome.');
+    test.equal(psmc, '', 'should be awesome.');
     test.done();
   },
 };
