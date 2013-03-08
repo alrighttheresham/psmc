@@ -42,7 +42,7 @@
   },
   "bin" :
     {
-        "psmc" : "./bin/psmc.js"
+        "psmc" : "./bin/psmc"
     },
   "keywords": []
 }
