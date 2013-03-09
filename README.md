@@ -5,7 +5,7 @@ command line client for BTI proNX Services Manager (psm).
 ## Getting Started
 Download and install node from here:
 
-<a href="http://nodejs.org/download/" target="_blank">node.js</a>
+<a href="http://nodejs.org/download/" target="_blank">download node.js</a>
 
 Once node is installed, npm will be available, this can be used to install psmc:
 
