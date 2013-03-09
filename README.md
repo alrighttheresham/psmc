@@ -9,20 +9,20 @@ Download and install node from here:
 
 Once node is installed, npm will be available, this can be used to install psmc:
 
-      npm install -g psmc
+      $ npm install -g psmc
 
 The -g option will install it globally on your system, this will make it available from any directory.
 
 For some *nix systems you may need to use sudo:
 
-      sudo npm install -g psmc
+      $ sudo npm install -g psmc
 
 sudo is required if your running as a user other than superuser (root).
 
 ## Documentation
       Usage: psmc <command> [options]
 
-      command     one of: sys, ne, na, eth
+      command     one of: init, sys, ne, na, eth, ...
 
       Options:
          -v, --version    print version and exit
@@ -31,9 +31,9 @@ sudo is required if your running as a user other than superuser (root).
          -p, --password   specify the password  [admin]
 
 ## Examples
-      psmc eth -h					            Provides help for the options on the <eth> command
-      psmc ne -s 172.27.5.230:9998 -l			Provide a list of discovered Network Elements
-      psmc eth -s 172.27.5.230:9998 -d 3000		Provides detail on the Ethernet Service identified by the 3000 VLAN ID
+      $ psmc eth -h					                Provides help for the options on the <eth> command
+      $ psmc ne -s 172.27.5.230:9998 -l			    Provide a list of discovered Network Elements
+      $ psmc eth -s 172.27.5.230:9998 -d 3000		Provides detail on the Ethernet Service identified by the 3000 VLAN ID
 
 
 ## Contributing
