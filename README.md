@@ -22,7 +22,7 @@ sudo is required if your running as a user other than superuser (root).
 ## Documentation
 Calling psmc without any commands will provide a help message describing the functionality provided by the client.
 
-The list of commands provides common functionality for learning about the system running psm, discovered network element, alarms currently raised in the discovered network and information on the provisioned services.
+The list of commands provides common functionality for learning about; the system running psm, discovered network elements, alarms currently raised in the discovered network and information on the provisioned services.
 
       Usage: psmc <command> [options]
 
