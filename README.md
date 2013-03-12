@@ -28,7 +28,7 @@ The list of commands provides common functionality for learning about; the syste
 
       Usage: psmc <command> [options]
 
-      command     one of: init, sys, ne, na, eth, ...
+      command     one of: init, sys, ne, shf, na, eth, cus, usr
 
       Options:
          -v, --version    print version and exit
@@ -37,9 +37,11 @@ The list of commands provides common functionality for learning about; the syste
          -p, --password   specify the password  [admin]
 
 ## Examples
+      $ psmc init -s 172.27.5.230:9998 -l		Provides a dump of the base configuration in PSM
       $ psmc eth -h					                Provides help for the options on the <eth> command
       $ psmc ne -s 172.27.5.230:9998 -l			    Provide a list of discovered Network Elements
       $ psmc eth -s 172.27.5.230:9998 -d 3000		Provides detail on the Ethernet Service identified by the 3000 VLAN ID
+      $ psmc eth -s 172.27.5.230:9998 -a		Provides a list of services that are alarmed
 
 
 ## Contributing
