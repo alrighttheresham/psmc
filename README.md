@@ -19,6 +19,8 @@ For some *nix systems you may need to use sudo:
 
 sudo is required if your running as a user other than superuser (root).
 
+NOTE when installing there will be a number of warning displayed on the console, this is output from the third parties that are used in this client application, these can be ignored as they do not affect behaviour. 
+
 ## Documentation
 Calling psmc without any commands will provide a help message describing the functionality provided by the client.
 
