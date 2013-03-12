@@ -36,6 +36,8 @@ The list of commands provides common functionality for learning about; the syste
          -u, --username   specify the username  [admin]
          -p, --password   specify the password  [admin]
 
+The commands provide information on initial configuration, system information, network element specifics, shelf information for a network element, network alarms, ethernet services, customer information and user (connected clients) information. 
+
 ## Examples
       $ psmc init -s 172.27.5.230:9998 -l		Provides a dump of the base configuration in PSM
       $ psmc eth -h					                Provides help for the options on the <eth> command
@@ -43,6 +45,7 @@ The list of commands provides common functionality for learning about; the syste
       $ psmc eth -s 172.27.5.230:9998 -d 3000		Provides detail on the Ethernet Service identified by the 3000 VLAN ID
       $ psmc eth -s 172.27.5.230:9998 -a		Provides a list of services that are alarmed
 
+Before running the examples you should ensure that the user you authenticate with has administration privleges. 
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
