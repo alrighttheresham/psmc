@@ -40,7 +40,7 @@ The options above for server, username and password can be persisted as envirome
       $ export server=172.27.5.230:9998
       $ psmc init
 
-This will users if they choose to, store in their environment the ip address, username and password of their local psm server so that they dont have to reenter them every tim the client tool is called. 
+This will users if they choose, to store in their environment the ip address, username and password of their local psm server so that they dont have to reenter them every tim the client tool is called. 
 
 The commands provide information on initial configuration, system information, network element specifics, shelf information for a network element, network alarms, ethernet services, customer information and user (connected clients) information. 
 
