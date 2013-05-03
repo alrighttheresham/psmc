@@ -7,11 +7,11 @@ Download and install node from here:
 
 <a href="http://nodejs.org/download/" target="_blank">download node.js</a>
 
-Once node is installed, npm will be available, this can be used to install psmc:
+Once node is installed, npm will be available, this can be used to install/upgrade psmc:
 
       $ npm install -g psmc
 
-The -g option will install it globally on your system, this will make it available from any directory.
+The -g option will install/upgrade it globally on your system, this will make it available from any directory.
 
 For some *nix systems you may need to use sudo:
 
