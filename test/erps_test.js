@@ -48,8 +48,9 @@ exports.testLinkStateToString = function(test) {
 };
 
 exports.testPortStateToString = function(test) {
-    test.expect(2);
+    test.expect(3);
     test.equal(erps.portStateToString("UNBLOCKED"), 'unblocked', 'should be unblocked');
     test.equal(erps.portStateToString("BLOCKING"), 'blocked', 'should be blocked');
+    test.equal(erps.portStateToString(null), 'undefined', 'should be undefined');
     test.done();
 };
