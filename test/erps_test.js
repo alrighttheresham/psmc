@@ -32,8 +32,8 @@ exports.testPortRoleToString = function (test) {
     test.expect(6);
     test.equal(erps.serviceStateToString("PROTECTION"), 'protecting', 'should be protecting');
     test.equal(erps.serviceStateToString("IDLE"), 'idle', 'should be idle');
-    test.equal(erps.serviceStateToString("FORCE_SWITCH"), 'force switch', 'should be force switch');
-    test.equal(erps.serviceStateToString("MANUAL_SWITCH"), 'manual switch', 'should be manual switch');
+    test.equal(erps.serviceStateToString("FORCE_SWITCH"), 'forced', 'should be force switch');
+    test.equal(erps.serviceStateToString("MANUAL_SWITCH"), 'manual', 'should be manual switch');
     test.equal(erps.serviceStateToString("PENDING"), 'pending', 'should be pending');
     test.equal(erps.serviceStateToString("DISABLE"), 'disable', 'should be disable');
     test.done();
